@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p1"></p>
+    
+    <script>
+
+        //                                                   CHECK IF A NUMBER IS EVEN OR ODD
+        // let number = 88;
+        // if (number % 2 == 0) {
+        //     //console.log("The number is even.");
+        //     document.getElementById("p1").innerHTML= "The number is even";
+        // }
+        // else {
+        //     //console.log("The number is odd.");
+        //     document.getElementById("p1").innerHTML= "The number is odd";
+        // }
+
+
+        //                                              CHECK IF A NUMBER IS A PRIME NUMBER OR NOT 
+        // let number = 7;
+        // let isPrime = true;
+        // if (number == 1) {
+        //     document.getElementById("p1").innerHTML="1 is neither prime nor composite number.";
+        // }
+        // else if (number > 1) {
+        //     for (let i = 2; i < number; i++) {
+        //         if (number % i == 0) {
+        //             isPrime = false;
+        //             break;
+        //         }
+        //     }
+
+        //     if (isPrime) {
+        //         document.getElementById("p1").innerHTML= number + " is a prime number";
+        //     } else {
+        //         document.getElementById("p1").innerHTML= number + " is a not prime number";
+        //     }
+        // }
+        // else {
+        //     document.getElementById("p1").innerHTML= number + " is a not prime number";
+        // }
+
+        function myfn(){
+            let n1= document.getElementById("n1").value;
+            n1 = Number(n1);
+            let flag=true;
+            if(!isNaN(n1)){k
+                for(let i=2; i<(n1/2); i++){
+                    if(n1%i == 0){
+                        flag = false;
+                        break;
+                    }
+                }
+            }
+            if(flag){
+                alert("Prime number");
+            }
+            else{
+                alert("Not prime");
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
