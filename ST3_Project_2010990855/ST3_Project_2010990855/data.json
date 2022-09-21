@@ -1,0 +1,107 @@
+{
+  "mercury": {
+    "name": "mercury",
+    "desc": "The smallest and fastest planet, Mercury is the closest planet to the Sun and whips around it every 88 Earth days.",
+    "tagline": "Smallest planet",
+    "axis_tilt": 0.03,
+    "gravity_times": 0.38,
+    "day_hours": "58d 15h 30m",
+    "radius": 2439.7,
+    "g": 3.7,
+    "age": 4503,
+    "distance_from_sun": "5.7 * 10^7",
+    "img_src": "./planets/mercury.png"
+  },
+  "venus": {
+    "name": "venus",
+    "desc": "Spinning in the opposite direction to most planets, Venus is the hottest planet, and one of the brightest objects in the sky.",
+    "tagline": "Hottest planet",
+    "axis_tilt": 2.64,
+    "gravity_times": 0.9,
+    "day_hours": "116d 18h 0m",
+    "radius": 6051.8,
+    "g": 8.87,
+    "age": 4503,
+    "distance_from_sun": "1.08 * 10^8",
+    "img_src": "./planets/venus.png"
+  },
+  "earth": {
+    "name": "earth",
+    "desc": "The place we call home, Earth is the third rock from the sun and the only planet with known life on it - and lots of it too!",
+
+    "tagline": "Our Home",
+    "axis_tilt": 23.44,
+    "gravity_times": 1,
+    "day_hours": "1d 0h 0m",
+    "radius": 6371,
+    "g": 9.807,
+    "age": 4543,
+    "distance_from_sun": "1.5 * 10^8",
+    "img_src": "./planets/earth.png"
+  },
+  "mars": {
+    "name": "mars",
+    "desc": "The red planet is dusty, cold world with a thin atmosphere and is home to four NASA robots.",
+    "tagline": "Red planet",
+    "axis_tilt": 25.19,
+    "gravity_times": 0.38,
+    "day_hours": "1d 0h 37m",
+    "radius": 3389.5,
+    "g": 3.721,
+    "age": 4603,
+    "distance_from_sun": "2.28 * 10^8",
+    "img_src": "./planets/mars.png"
+  },
+  "jupiter": {
+    "name": "jupiter",
+    "desc": "Jupiter is a massive planet, twice the size of all other planets combined, and has a centuries-old storm that is bigger than Earth.",
+    "tagline": "Gas giant planet",
+    "axis_tilt": 3.13,
+    "gravity_times": 2.53,
+    "day_hours": "0d 9h 56m",
+    "radius": 69911,
+    "g": 24.79,
+    "age": 4603,
+    "distance_from_sun": "7.79 * 10^8",
+    "img_src": "./planets/jupiter.png"
+  },
+  "saturn": {
+    "name": "saturn",
+    "desc": "The most recognizable planet with a system of icy rings, Saturn is a very unique and interesting planet.",
+    "tagline": "Ringed Planet",
+    "axis_tilt": 26.73,
+    "gravity_times": 1.07,
+    "day_hours": "0h 10h 34m",
+    "radius": 58232,
+    "g": 10.44,
+    "age": 4503,
+    "distance_from_sun": "1.43 * 10^9",
+    "img_src": "./planets/saturn.png"
+  },
+  "uranus": {
+    "name": "uranus",
+    "desc": "Uranus has a very unique rotation--it spins on its side at an almost 90-degree angle, unlike other planets.",
+    "tagline": "The Georgium Sidus",
+    "axis_tilt": 82.23,
+    "gravity_times": 0.89,
+    "day_hours": "0d 17h 14m",
+    "radius": 25362,
+    "g": 8.87,
+    "age": 4503,
+    "distance_from_sun": "2.38 * 10^9",
+    "img_src": "./planets/uranus.png"
+  },
+  "neptune": {
+    "name": "neptune",
+    "desc": "Neptune is now the most distant planet and is a cold and dark world nearly 3 billion miles from the Sun.",
+    "tagline": "Ice Giant",
+    "axis_tilt": 28.32,
+    "gravity_times": 1.14,
+    "day_hours": "0d 16h 6m",
+    "radius": 24622,
+    "g": 11.15,
+    "age": 4503,
+    "distance_from_sun": "4.5* 10^9",
+    "img_src": "./planets/neptune.png"
+  }
+}

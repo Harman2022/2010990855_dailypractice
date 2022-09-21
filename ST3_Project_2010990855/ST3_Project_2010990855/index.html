@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet weight calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="planets/earth.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="sun"></div>
+      <div class="planets"></div>
+
+      <div class="planet-intel">
+        <h1 class="planet-heading">
+          <span id="planet-name"></span> <span id="planet-tagline"></span>
+        </h1>
+        <p id="planet-desc"></p>
+      </div>
+      <div class="logic">
+        <div class="input">
+          <input
+            type="number"
+            min="0"
+            id="weight"
+            placeholder="Enter weight"
+            value="0"
+          />
+        </div>
+        <div class="result">
+          Your weight on <span id="current-planet">Earth</span> is
+          <span id="result">0.0</span>
+          Kg
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js" type="module" defer></script>
+  </body>
+</html>
