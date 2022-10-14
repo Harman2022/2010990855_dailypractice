@@ -1,0 +1,21 @@
+@import url();
+.icon{
+    width: 10px;
+    float: left;
+    height: 70px;
+    font-family: "Bubblegum Sans"
+}
+
+.logo{
+    color: #edeaeaef;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+.nav-link{
+    font-size: 20px;
+    color: black;
+}

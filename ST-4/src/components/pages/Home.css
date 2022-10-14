@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+.a1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 100vh; */
+    background-image: url(data:image/jpeg;base64,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);
+}
+.cover{
+    
+    /* background:no-repeat, linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat; */
+    background-size: cover;
+    min-height: 100vh;
+}
+.cover-content{
+    min-height: 100vh;
+}
+h1{
+    color: white;
+}
+h6{
+    color: white;
+}
+.cover-content img{
+
+    max-width: 200px;
+    border:2px solid white;
+}
+
+.about{
+    background-color: #ececec;
+}
+
+@media screen and (max-width: 760px) {
+    .cover-content h1{
+        font-size: 36px;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+
+    .cover-content h6{
+        font-size: 15px;
+    }
+}

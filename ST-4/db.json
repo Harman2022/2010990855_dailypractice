@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "username": "jonnyy",
+      "email": "anirudhsharma8303@gmail.com",
+      "phone": "9780712234",
+      "website": "dd",
+      "id": 1
+    },
+    {
+      "name": "Harmanpreet Kaur",
+      "username": "Harman",
+      "email": "harmanpreet0855.be20@chitkara.edu.in",
+      "phone": "8168839253",
+      "website": "hh",
+      "id": 2
+    },
+    {
+      "name": "Anshul",
+      "username": "anshulll123",
+      "email": "anshul12@chitkara.edu.in",
+      "phone": "",
+      "website": "hhag",
+      "id": 3
+    }
+  ]
+}
