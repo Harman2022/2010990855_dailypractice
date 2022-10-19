@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "fullname": "admin",
+      "email": "admin@gmail.com",
+      "username": "admin",
+      "userpassword": "admin",
+      "id": 0
+    },
+    {
+      "fullname": "g",
+      "email": "d",
+      "username": "e",
+      "id": 3
+    },
+    {
+      "fullname": "gg",
+      "email": "jj",
+      "username": "dd",
+      "id": 4
+    },
+    {
+      "fullname": "hello",
+      "email": "hello@gmail.com",
+      "username": "helloabc",
+      "id": 5
+    },
+    {
+      "fullname": "harmanpreet",
+      "email": "harmanpreet@gmail.com",
+      "username": "abd\\s",
+      "id": 6
+    }
+  ]
+}
