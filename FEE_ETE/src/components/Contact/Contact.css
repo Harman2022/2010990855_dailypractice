@@ -1,0 +1,94 @@
+.gmap {
+  margin: 50px;
+}
+
+.contact-heading-div {
+  background-color: #A2D9CE ;
+  color: white;
+  font-size: 3rem;
+  padding: 30px;
+  font-family: "Cormorant Garamond", sans-serif;
+  font-weight: bold;
+}
+
+.contact-container {
+  height: 650px;
+  width: 100%;
+  background-color: #A9CCE3 ;
+  display: flex;
+}
+
+.col-25 {
+  width: 25%;
+  margin-left: 10%;
+  padding-top: 8%;
+}
+
+.col-75 {
+  width: 75%;
+  padding-top: 7.8%;
+  padding-left: 6%;
+}
+
+.title-head {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.title-body {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+
+.cont-inp {
+  height: 50px;
+  width: 40%;
+  margin-right: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding-left: 20px;
+  margin-bottom: 35px;
+}
+
+::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+
+.mssg-area {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 89%;
+  height: 70px;
+}
+
+.mssg-area::placeholder {
+  font-family: "Times New Roman", serif;
+  padding-left: 28px;
+  font-size: 0.98rem;
+}
+
+.cont-btn {
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 30px;
+  width: 30%;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+.cont-btn:hover {
+  background-color: #1A5276 ;
+  color: #f3f0d6;
+}

@@ -1,0 +1,112 @@
+.home-img-container {
+  background-color:#EDBB99  ;
+  display: flex;
+}
+.welcome{
+  margin-left: 50px;
+  font-family:'Times New Roman', Times, serif;
+  color:#873600 ;
+  text-align: center;
+}
+.home-container {
+  justify-content: center;
+  background-color: #D7BDE2 ;
+}
+
+.home-container-heading {
+  color: #2e0736;
+  margin-top: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-color: #F9E79F ;
+}
+
+.home-container-data {
+  padding: 0 50px 20px 50px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+}
+
+.home-container-btn {
+  background-color: white;
+  color: #7FB3D5;
+  cursor: pointer;
+  border: 1px solid #f9f5fa;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+.home-container-btn:hover {
+  background-color: #512E5F;
+  color: white;
+}
+
+.main-img {
+  height: 500px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+
+.info-div {
+  position: absolute;
+  margin-left: 57%;
+  margin-top: 130px;
+  z-index: 2;
+}
+
+.info-div img {
+  height: 350px;
+  width: 500px;
+}
+
+.flex-box-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.flex-item {
+  width: 450px;
+  height: 500px;
+  margin: 30px;
+  overflow: hidden;
+}
+
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 540px;
+}
+.image-box img {
+  /* max-width: 100%; */
+  transition: all 0.3s;
+  display: block;
+  /* width: 100%; */
+  height: auto;
+  transform: scale(1);
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+}
+
+.inner-div {
+  background-color: #EDBB99;
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+  font-size: 3rem;
+  font-family: "Passions Conflict", cursive;
+  color: white;
+}
+
+.flex-item-image {
+  width: 540px;
+  height: 540px;
+}

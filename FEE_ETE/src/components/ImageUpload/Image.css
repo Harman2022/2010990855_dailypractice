@@ -1,0 +1,56 @@
+.main-img-container {
+  background-color: #BB8FCE ;
+  padding: 3px;
+}
+
+input::-webkit-file-upload-button {
+  font-size: 1.1rem;
+  height: 50px;
+  width: 130px;
+  background-color: transparent;
+  border: 1px solid black;
+  transition: background-color 200ms ease, color 200ms ease;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+input::-webkit-file-upload-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.intro-head {
+  color: white;
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#image-collection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #f9ceee;
+  margin: 3.5px;
+  width: 23%;
+  padding: 7px;
+  border-radius: 3px;
+  list-style-type: none;
+}
+
+.card-img {
+  height: 200px;
+  width: 250px;
+  margin-top: 15px;
+}
+
+.btn-delete img {
+  width: 50px;
+  height: 50px;
+  margin-top: 3px;
+}

@@ -1,0 +1,131 @@
+.register-container {
+  background-color: #D0ECE7 ;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-left {
+  height: 520px;
+  width: 500px;
+}
+
+.right-div {
+  height: 520px;
+  width: 82%;
+  background-color: #E6B0AA ;
+  margin-top: 2.5px;
+}
+
+.label {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-top: 7%;
+  padding-left: 10%;
+  color: #154360 ;
+
+}
+
+.res-inp {
+  margin-top: 3px;
+  margin-left: 10%;
+  height: 20px;
+  width: 80%;
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.res-inp::placeholder {
+  color:  white;
+}
+
+.res-btn {
+  font-size: 1.1rem;
+  height: 50px;
+  width: 130px;
+  margin-left: 10%;
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid  white;
+  transition: background-color 200ms ease, color 200ms ease;
+  cursor: pointer;
+  color: #154360 ;
+}
+
+.res-btn:hover {
+  background-color:  #A93226 ;
+  color: white;
+}
+
+.footer-div {
+  background-color:  white;
+  padding-top: 40px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.logo-img {
+  height: 90px;
+  width: 140px;
+}
+
+.logo-container {
+  margin-left: 30px;
+  padding-bottom: 20px;
+  margin-right: 30px;
+}
+
+.footer-link {
+  width: 70%;
+  margin-top: 30px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.icons {
+  width: 15%;
+  margin-top: 30px;
+}
+
+.icon-wrapper {
+  display: inline;
+  padding-left: 15px;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.awe-icon {
+  width: 27px;
+  height: 27px;
+  padding: 5px;
+  background-color:  white;
+  border-radius: 50%;
+  transition: background-color 200ms ease;
+}
+
+.awe-icon:hover {
+  background-color:  white;
+}
+
+.trademark {
+  color: white;
+  font-size: 0.9rem;
+  margin-left: 25px;
+  padding-bottom: 10px;
+}

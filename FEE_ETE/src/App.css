@@ -1,0 +1,38 @@
+.container {
+ 
+  border-top:  solid rgb(177, 168, 168);
+}
+
+.navbar {
+  background-color: rgb(169, 168, 168);
+  list-style-type: none;
+  margin-top: 10px;
+  overflow: hidden;
+  padding-bottom: -20px;
+}
+
+.nav-item {
+  
+  float:left;
+  padding-top: 23px;
+  padding-bottom: -30px;
+}
+
+
+.nav-link {
+  color: rgb(12, 11, 11);
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.logoimg {
+  margin-left: 1030px;
+  display: inline;
+  height: 80px;
+  width: 100px;
+  margin-top:-50px ;
+  margin-bottom: 2px;
+}
